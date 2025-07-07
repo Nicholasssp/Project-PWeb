@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
+
+# Prevent access to manifest.json
+<Files "manifest.json">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# Set proper MIME types
+AddType application/json .json
+AddType text/plain .txt 

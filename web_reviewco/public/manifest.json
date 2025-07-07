@@ -1,0 +1,15 @@
+{
+  "short_name": "ReviewCo",
+  "name": "ReviewCo - Cafe & Restaurant Reviews",
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSIjQzY5QzZEIiBkPSJNNDggNjRDMjEuNSA2NCAwIDg1LjUgMCAxMTJ2NjRjMCAyNi41IDIxLjUgNDggNDggNDhoMzJWNjRINDh6bTM5MiA4NC4zYzAtNDIuNi0zMC4zLTgyLjQtNzEuMy05Mi43QzM2Mi4xIDI3LjMgMzEyLjYgMCAyNTYgMGMtNzcuMSAwLTE0MC4yIDYzLjEtMTQwLjIgMTQwLjJWMjI0aDI3MmMzNS4zIDAgNjQtMjguNyA2NC02NGMwLTIuNi0uMi01LjItLjUtNy43ek0yNTYgNDQ4YzU2LjYgMCAxMDYuMS0yNy4zIDEzNi45LTY5LjZDNDM0LjMgMzY4LjIgNDY0IDMyOC40IDQ2NCAyODUuOGMwIDIuNi4yIDUuMi41IDcuN0g0OHYxMTguNUM0OCA0MzguNiA2OS41IDQ2MCA5NiA0NjBoMTYwek00OCA0NjRWNDQ4SDk2YzAtMTcuNy0xNC4zLTMyLTMyLTMySDQ4eiIvPjwvc3ZnPg==",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+} 

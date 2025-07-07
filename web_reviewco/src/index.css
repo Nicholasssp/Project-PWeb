@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #FAFAFA;
+  color: #4B3F2F;
+  overflow-x: hidden;
+}
+
+.btn-primary {
+  background-color: #C69C6D;
+  border-color: #C69C6D;
+  border-radius: 12px;
+  padding: 12px 24px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #B8906A;
+  border-color: #B8906A;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(198, 156, 109, 0.3);
+}
+
+.btn-outline-primary {
+  color: #C69C6D;
+  border-color: #C69C6D;
+  border-radius: 12px;
+  padding: 12px 24px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: #C69C6D;
+  border-color: #C69C6D;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(198, 156, 109, 0.3);
+}
+
+.card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  background-color: #FFFFFF;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+.form-control {
+  border: 2px solid #E5E5E5;
+  border-radius: 12px;
+  padding: 14px 16px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #C69C6D;
+  box-shadow: 0 0 0 0.2rem rgba(198, 156, 109, 0.25);
+}
+
+.navbar {
+  background-color: #FFFFFF !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  padding: 16px 0;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 24px;
+  color: #4B3F2F !important;
+}
+
+.text-primary {
+  color: #C69C6D !important;
+}
+
+.bg-light {
+  background-color: #F8F9FA !important;
+}
+
+.rounded-3 {
+  border-radius: 16px !important;
+}
+
+.shadow-sm {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06) !important;
+}
+
+.review-card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cafe-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.star-rating {
+  color: #FFB800;
+}
+
+.like-btn, .comment-btn, .share-btn {
+  background: none;
+  border: none;
+  color: #666;
+  font-size: 18px;
+  margin-right: 16px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.like-btn:hover {
+  color: #FF6B6B;
+}
+
+.comment-btn:hover {
+  color: #4ECDC4;
+}
+
+.share-btn:hover {
+  color: #45B7D1;
+}
+
+.like-btn.liked {
+  color: #FF6B6B;
+}
+
+.sidebar {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 24px;
+}
+
+.sidebar-item {
+  padding: 12px 0;
+  display: flex;
+  align-items: center;
+  color: #666;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  padding-left: 12px;
+}
+
+.sidebar-item:hover {
+  background-color: #F8F9FA;
+  color: #C69C6D;
+  text-decoration: none;
+}
+
+.sidebar-item.active {
+  background-color: #C69C6D;
+  color: white;
+}
+
+.sidebar-item i {
+  margin-right: 12px;
+  width: 20px;
+} 
